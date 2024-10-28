@@ -2,9 +2,9 @@
 
 <h5 align="center">
 
-The official results in the paper on KITTI Val Set:
-
 </h5>
+
+The official results in the paper on KITTI Val Set:
 
 <table>
     <tr>
