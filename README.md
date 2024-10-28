@@ -4,6 +4,8 @@
 
 The official results in the paper on KITTI Val Set:
 
+</h5>
+
 <table>
     <tr>
         <td rowspan="2",div align="center">Models</td>
