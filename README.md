@@ -30,7 +30,7 @@ This repo results on KITTI Val Set:
     <tr>
         <td rowspan="2",div align="center">Models</td>
         <td colspan="3",div align="center">Val, AP<sub>3D|R40</sub></td>   
-        <td rowspan="2",div align="center">Ckpts</td>
+        <td rowspan="2",div align="center">Checkpoint</td>
     </tr>
     <tr>
         <td div align="center">Easy</td> 
@@ -42,6 +42,7 @@ This repo results on KITTI Val Set:
         <td div align="center">28.17%</td> 
         <td div align="center">20.86%</td> 
         <td div align="center">17.63%</td> 
+        <td div align="center">Comming Soon</td>
     </tr>  
 </table>
 
