@@ -45,9 +45,9 @@ This repo results on KITTI Val Set:
         <td div align="center">Comming Soon</td>
     </tr>  
     <tr>
-        <td div align="center">28.32%</td> 
-        <td div align="center">21.05%</td> 
-        <td div align="center">17.77%</td> 
+        <td div align="center">28.38%</td> 
+        <td div align="center">21.07%</td> 
+        <td div align="center">17.78%</td> 
         <td div align="center">Comming Soon</td>
     </tr>
     <tr>
