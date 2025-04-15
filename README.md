@@ -42,15 +42,13 @@ This repo results on KITTI Val Set:
     </tr>
     <tr>
         <td rowspan="3",div align="center">MonoASRH</td>
-    </tr>  
-    <tr>
-        <td div align="center">28.38%</td> 
-        <td div align="center">21.07%</td> 
-        <td div align="center">17.78%</td> 
+        <td div align="center">28.28%</td> 
+        <td div align="center">21.04%</td> 
+        <td div align="center">17.76%</td> 
         <td div align="center">Comming Soon</td>
     </tr>
     <tr>
-        <td div align="center">28.28%</td> 
+        <td div align="center">28.29%</td> 
         <td div align="center">21.11%</td> 
         <td div align="center">17.84%</td> 
         <td div align="center">Comming Soon</td>
