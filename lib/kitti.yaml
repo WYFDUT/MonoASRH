@@ -1,9 +1,9 @@
 dataset:
   random_seed: 3407
   type: 'kitti'
-  data_dir: '/media/data3/wangyf/KITTI'
+  data_dir: '/media/KITTI'
   root_dir: '/'
-  label_dir: '/media/data3/wangyf/KITTI/training/label_2'
+  label_dir: '/media/KITTI/training/label_2'
   eval_cls: ['Car']
 #  eval_cls: ['Car','Pedestrian','Cyclist']
   batch_size: 16
@@ -32,16 +32,16 @@ optimizer:
 lr_scheduler:
   warmup: True  # 5 epoches, cosine warmup, init_lir=0.00001 in default
   decay_rate: 0.1 # 0.5
-  decay_list: [250, 370, 490] # [90, 120][85, 125, 165, 205]
+  decay_list: [250, 370]
 
 trainer:
-  max_epoch: 600 # 600 250
-  eval_start: 200 # 50
+  max_epoch: 600 #
+  eval_start: 200 #
   eval_frequency: 5 # evaluation interval (in epoch)
   save_frequency: 5 # checkpoint save interval (in epoch)
   disp_frequency: 50 # display interval (in batch)
-  log_dir: 'MonoASRH_new/logs/'
-  out_dir: 'MonoASRH_new/output/'
+  log_dir: 'MonoASRH/logs/'
+  out_dir: 'MonoASRH/output/'
   # resume_model: ''
 
 tester:
