@@ -1,0 +1,53 @@
+dataset:
+  random_seed: 3407
+  type: 'kitti'
+  data_dir: '/media/data3/wangyf/KITTI'
+  root_dir: '/'
+  label_dir: '/media/data3/wangyf/KITTI/training/label_2'
+  eval_cls: ['Car']
+#  eval_cls: ['Car','Pedestrian','Cyclist']
+  batch_size: 16
+  val_batch_size: 16
+  num_workers: 16
+  class_merging: False
+  use_dontcare: False
+  use_3d_center: True
+  writelist: ['Car','Pedestrian','Cyclist']
+  random_flip: 0.5
+  random_crop: 0.5
+  scale: 0.4
+  shift: 0.1
+  drop_last_val: False
+
+model:
+  type: 'MonoASRH'
+  backbone: 'dla34'
+  neck: 'DLAUp'
+
+optimizer:
+  type: 'adam'
+  lr: 0.001
+  weight_decay: 0.00001
+
+lr_scheduler:
+  warmup: True  # 5 epoches, cosine warmup, init_lir=0.00001 in default
+  decay_rate: 0.1 # 0.5
+  decay_list: [250, 370, 490] # [90, 120][85, 125, 165, 205]
+
+trainer:
+  max_epoch: 600 # 600 250
+  eval_start: 200 # 50
+  eval_frequency: 5 # evaluation interval (in epoch)
+  save_frequency: 5 # checkpoint save interval (in epoch)
+  disp_frequency: 50 # display interval (in batch)
+  log_dir: 'MonoASRH_new/logs/'
+  out_dir: 'MonoASRH_new/output/'
+  # resume_model: ''
+
+tester:
+  threshold: 0.2  # confidence filter
+  out_dir: './MonoASRH/testset_out'
+  resume_model: '' # pre-trained model path
+
+
+
