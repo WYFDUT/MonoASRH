@@ -125,6 +125,10 @@ You can modify the settings of models and training in `lib/kitti.yaml`:
   ```bash
   python tools/train_val.py
   ```
+### Eval
+  ```bash
+  python tools/train_val.py -e
+  ```
 ### Test
 The best checkpoint will be evaluated as default. You can change it at "tester/resume_model" in `lib/kitti.yaml`:
   ```bash
