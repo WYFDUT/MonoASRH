@@ -116,4 +116,20 @@ The official results in the paper on KITTI Test Set:
     │   ├──image_2
     │   ├──calib
     ```
-    You can also change the data path at "dataset/root_dir" in `configs/kitti.yaml`.
+    You can also change the data path at "dataset/root_dir" in `lib/kitti.yaml`.
+
+## Get Started
+
+### Train
+You can modify the settings of models and training in `lib/kitti.yaml`:
+  ```bash
+  python tools/train_val.py
+  ```
+### Test
+The best checkpoint will be evaluated as default. You can change it at "tester/resume_model" in `lib/kitti.yaml`:
+  ```bash
+  python tools/train_val.py -t
+  ```
+
+## Acknowlegment
+This repo benefits from the excellent work [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) and [MonoLSS](https://github.com/Traffic-X/MonoLSS)
