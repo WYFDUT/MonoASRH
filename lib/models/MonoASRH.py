@@ -48,7 +48,6 @@ class MonoASRH(nn.Module):
 
         self.first_level = int(np.log2(downsample))
         scales = [2 ** i for i in range(len(channels[self.first_level:]))]
-        #self.feat_up = globals()[neck](channels[self.first_level:], scales_list=scales)
         self.feat_up = HybridEncoder(in_channels=[64, 128, 256, 512],
                             feat_strides=[4, 8, 16, 32],
                             hidden_dim=128,
