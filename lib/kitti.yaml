@@ -35,7 +35,7 @@ lr_scheduler:
   decay_list: [250, 370]
 
 trainer:
-  max_epoch: 500 #
+  max_epoch: 450 #
   eval_start: 200 #
   eval_frequency: 5 # evaluation interval (in epoch)
   save_frequency: 5 # checkpoint save interval (in epoch)
