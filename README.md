@@ -55,26 +55,6 @@ This repo results on KITTI Val Set:
     </tr>
 </table>
 
-The official results in the paper on KITTI Test Set:
-
-<table>
-    <tr>
-        <td rowspan="2",div align="center">Models</td>
-        <td colspan="3",div align="center">Test, AP<sub>3D|R40</sub></td>   
-    </tr>
-    <tr>
-        <td div align="center">Easy</td> 
-        <td div align="center">Mod.</td> 
-        <td div align="center">Hard</td> 
-    </tr>
-    <tr>
-        <td rowspan="4",div align="center">MonoASRH</td>
-        <td div align="center">26.18%</td> 
-        <td div align="center">19.17%</td> 
-        <td div align="center">16.92%</td> 
-    </tr>  
-</table>
-
 ## Installation
 1. Clone this project and create a conda environment:
     ```bash
