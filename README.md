@@ -3,6 +3,10 @@
 This repository hosts the official implementation of [Efficient Feature Aggregation and Scale-Aware Regression 
 for Monocular 3D Object Detection](https://arxiv.org/abs/2411.02747).
 
+<div align="center">
+  <img src="figures/overall.png" width="800" height="auto"/>
+</div>
+
 <h5 align="center">
 
 </h5>
