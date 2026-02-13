@@ -113,5 +113,22 @@ The best checkpoint will be evaluated as default. You can change it at "tester/r
   python tools/train_val.py -t
   ```
 
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@ARTICLE{11395320,
+  author={Wang, Yifan and Yang, Xiaochen and Pu, Fanqi and Liao, Qingmin and Yang, Wenming},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Efficient Feature Aggregation and Scale-Aware Regression for Monocular 3-D Object Detection}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={3D object detection;monocular;scale-aware;scene understanding;autonomous driving},
+  doi={10.1109/TITS.2026.3659175}}
+```
+
 ## Acknowlegment
 This repo benefits from the excellent work [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) and [MonoLSS](https://github.com/Traffic-X/MonoLSS)
