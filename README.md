@@ -1,7 +1,7 @@
-# MonoASRH: Efficient Feature Aggregation and Scale-Aware Regression for Monocular 3D Object Detection
+# MonoASRH: Efficient Feature Aggregation and Scale-Aware Regression for Monocular 3-D Object Detection
 
 This repository hosts the official implementation of [Efficient Feature Aggregation and Scale-Aware Regression 
-for Monocular 3D Object Detection](https://arxiv.org/abs/2411.02747).
+for Monocular 3-D Object Detection](https://arxiv.org/abs/2411.02747).
 
 <div align="center">
   <img src="figures/overall.png" width="800" height="auto"/>
