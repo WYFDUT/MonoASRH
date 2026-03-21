@@ -38,6 +38,7 @@ This repo results on KITTI Val Set:
         <td rowspan="2",div align="center">Models</td>
         <td colspan="3",div align="center">Val, AP<sub>3D|R40</sub></td>   
         <td rowspan="2",div align="center">Checkpoint</td>
+        <td rowspan="2",div align="center">HF Ckpt</td>
     </tr>
     <tr>
         <td div align="center">Easy</td> 
@@ -50,12 +51,14 @@ This repo results on KITTI Val Set:
         <td div align="center">21.04%</td> 
         <td div align="center">17.76%</td> 
         <td div align="center"><a href="https://drive.google.com/file/d/18438FvMcA5RPcX0GFstBpTCK77CO2Vhc/view?usp=drive_link">ckpt</a></td>
+        <td div align="center"><a href="https://huggingface.co/yifanwang08/MonoASRH_Validation/blob/main/monoasrh_checkpoint1.pth">hf ckpt</a></td>
     </tr>
     <tr>
         <td div align="center">28.29%</td> 
         <td div align="center">21.11%</td> 
         <td div align="center">17.84%</td> 
         <td div align="center"><a href="https://drive.google.com/file/d/1h9_UiSl6DobBFurlTjvJskRfpr_OUbuI/view?usp=drive_link">ckpt</a></td>
+      <td div align="center"><a href="https://huggingface.co/yifanwang08/MonoASRH_Validation/blob/main/monoasrh_checkpoint2.pth">hf ckpt</a></td>
     </tr>
 </table>
 
